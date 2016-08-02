@@ -5,8 +5,8 @@ import requests
 import urllib
 from bs4 import BeautifulSoup
 
-fhand = codecs.open('where.json','w', "utf-8")
-fhand.write("{api:\n")
+fhand = codecs.open('where.js','w', "utf-8")
+fhand.write("[\n")
 
 def gettitle(st):
 	t=st.find(':')
