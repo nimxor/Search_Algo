@@ -1,4 +1,4 @@
-myData = [
+[
 [
 {'title':'Binary Search'},
 {'Tutorial, Problems':'http://help.topcoder.com/data-science/competing-in-algorithm-challenges/algorithm-tutorials/binary-search/'},
@@ -588,4 +588,4 @@ myData = [
 {'title':'Mo's Algorithm'},
 {'Tutorial and Problems':'http://blog.anudeep2011.com/mos-algorithm/'}
 ]
-];
+]
