@@ -32,4 +32,7 @@ with open('where.json') as data_file:
     		web_list.append([web_title,web_link])
     	doc[title]=web_list
     		
-print doc    	
+print doc
+
+with open("generateapi.json", "w+") as f:
+    json.dump(doc, f)    	
